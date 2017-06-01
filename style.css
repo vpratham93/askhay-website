@@ -1,0 +1,203 @@
+body
+{
+background-image: url('img/back2.jpg');
+background-attachment:cover;
+font-family:'Sans-serif','Arial';
+
+}
+
+.container-fluid
+{
+	max-width:925px;
+    margin: auto;
+	margin-top:20%;
+	
+}
+
+.menu
+{
+	margin-right:4%;
+}
+
+.menu .container-fluid .menu-list li
+{
+list-style:none;
+display:inline-block;
+}
+
+#skarma
+{
+
+ width:150px;
+ height:80px;
+ margin-bottom:15%;
+
+}
+
+
+#fcgoa
+{	
+width:92px;
+height:102px;
+margin-bottom:10%;
+
+}
+
+
+#forcagoa
+{
+
+width:197px;
+height:44px;
+margin-bottom:10%;
+
+}
+
+#presntly
+{
+
+width:200px;
+height:49px;
+margin-bottom:15%;
+
+}
+
+
+#one
+{
+	margin-left:17px;
+	margin-right:17px;
+}
+
+.menu-list
+{
+	display:inline-block;
+	
+}
+
+/************************************************************************ Media queries *********************************************************************************************/
+
+@media only screen and (max-width:1200px) 
+{
+.container-fluid
+{	
+margin-top:20%;
+}
+
+.menu
+{	
+margin-right:5%;
+}
+
+}
+
+@media only screen and (max-width:992px) 
+{
+
+
+.container-fluid
+{	
+margin:auto;
+width:320px;
+
+}
+
+
+#one
+{
+	display:none;
+}
+
+.menu-list
+{
+	width:250px;
+	margin-top:22%;	
+	margin-left:3%;
+}
+
+.menu .container-fluid .menu-list li
+{
+	width:50%;
+	
+}
+
+#skarma
+{
+margin-left:10%;
+
+}
+
+#fcgoa
+{
+margin-left:40%;
+margin-bottom:30%;
+}
+
+
+#forcagoa
+{
+margin-left:-2%;
+margin-bottom:30%;
+}
+
+#presntly
+{
+margin-left:-2%;
+
+}
+}
+
+
+@media only screen and (max-width:768px)
+{
+.menu-list
+{
+	width:250px;
+	margin-left:3%;
+}
+
+.menu .container-fluid .menu-list li
+{
+	width:50%;
+	
+}
+#fcgoa
+{
+
+margin-left:40%;
+}
+}
+
+
+@media only screen and (max-width:480px)
+{
+.menu-list
+{
+	width:250px;
+	margin-left:3%;
+}
+
+
+.menu .container-fluid .menu-list li
+{
+	width:50%;
+	
+}
+
+}
+
+
+
+@media only screen and (max-width:320px)
+{
+.menu-list
+{
+	width:250px;
+	margin-left:3%;
+}
+
+
+}
+
+
+/********************************************************************** End Media Queries *******************************************************************************************/
